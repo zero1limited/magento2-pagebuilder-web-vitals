@@ -1,0 +1,18 @@
+{
+    "name": "zero1/module-pagebuilder-web-vitals",
+    "description": "Provides functionality to include image dimensions and link labels to pass Google's Web Vitals audits",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],    
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Zero1\\PageBuilderWebVitals\\": ""
+        }
+    }
+}
