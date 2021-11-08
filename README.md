@@ -17,9 +17,11 @@ Google's Web Vitals audits contain improvement suggestions that help increase bo
 - Links do not have a discernible name
 
 **Image elements do not have explicit width and height**
+
 Once this module is installed, you will have 2 new fields allowing you to add a width and height to each image you upload via Page Builder. Adding these dimensions will ensure that the image you have uploaded will pass the Google Web Vital audit
 
 **Links do not have a discernible name**
+
 This is recommended by Google when a tags don't contain text. When adding an image with a link, the a tag only contains an image, but one way to ensure this a tag passes the Web Vitals audit is to add an aria-label tag to the link itself.
 Once this module is installed, you will have a new field allowing you to add a label to the link tag which will ensure the link passes the audit.
 
