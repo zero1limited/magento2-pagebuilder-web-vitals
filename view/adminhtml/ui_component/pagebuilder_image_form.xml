@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd" extends="pagebuilder_base_form">
+    <fieldset name="general" sortOrder="20">
+        <field name="link_label" sortOrder="25" formElement="input">
+            <settings>
+                <label translate="true">Link Description</label>
+                <notice translate="true">This should be descriptive to ensure Google's web vitals audits are passed; for example... "Buy" will fail; "Discover our new range of products" will pass</notice>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+    </fieldset>
+    <fieldset name="webvitals" sortOrder="40">
+        <settings>
+            <label translate="true">Web Vitals</label>
+            <collapsible>true</collapsible>
+            <opened>true</opened>
+        </settings>
+        <field name="wvwidth" sortOrder="10" formElement="input">
+            <settings>
+                <label translate="true">Image Width</label>
+                <notice translate="true">Declaring image dimensions can drastically improve your rank on Google's web vitals audit</notice>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+        <field name="wvheight" sortOrder="20" formElement="input">
+            <settings>
+                <label translate="true">Image Height</label>
+                <notice translate="true">Declaring image dimensions can drastically improve your rank on Google's web vitals audit</notice>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+    </fieldset>
+</form>
