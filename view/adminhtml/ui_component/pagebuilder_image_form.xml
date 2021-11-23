@@ -41,5 +41,29 @@
                 </validation>
             </settings>
         </field>
+        <field name="lazyload_image" sortOrder="30" formElement="checkbox">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="default" xsi:type="string">no</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>boolean</dataType>
+                <label translate="true">Stop Image From Being Lazyily Loaded</label>
+                <notice translate="true">Lazily loading your LCP (largest contentful paint) image will result in Google's Web Vitals audit reporting this as "Largest contentful paint image was lazily loaded". Stopping your LCP image will result in this image passing the audit and will help improve your LCP score</notice>
+                <dataScope>lazyload_image</dataScope>
+            </settings>
+            <formElements>
+                <checkbox>
+                    <settings>
+                        <valueMap>
+                            <map name="false" xsi:type="string">no</map>
+                            <map name="true" xsi:type="string">yes</map>
+                        </valueMap>
+                        <prefer>toggle</prefer>
+                    </settings>
+                </checkbox>
+            </formElements>
+        </field>
     </fieldset>
 </form>
