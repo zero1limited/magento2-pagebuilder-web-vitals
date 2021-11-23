@@ -26,10 +26,12 @@
                     <element name="desktop_image">
                         <attribute name="wvwidth" source="width" />
                         <attribute name="wvheight" source="height"/>
+                        <attribute name="lazyload_image" source="stoplazyload" />
                     </element>
                     <element name="mobile_image">
                         <attribute name="wvwidth" source="width" />
                         <attribute name="wvheight" source="height"/>
+                        <attribute name="lazyload_image" source="stoplazyload" />
                     </element>
                     <element name="link">
                         <attribute name="link_label" source="aria-label"/>
