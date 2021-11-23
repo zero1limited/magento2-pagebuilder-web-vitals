@@ -6,29 +6,61 @@
 -->
 <figure attr="data.main.attributes" ko-style="Object.assign({}, data.main.style(), !data.desktop_image.attributes().src ? {} : {borderStyle: 'none'})" css="data.main.css">
     <a if="data.link.attributes().href" attr="data.link.attributes" ko-style="data.link.style" css="data.link.css">
-        <img if="data.desktop_image.attributes().src"
-             attr="data.desktop_image.attributes"
-             class="pagebuilder-mobile-hidden z1-pagebuilder-wv-image"
-             css="data.desktop_image.css"
-             ko-style="data.desktop_image.style" />
-        <img if="data.mobile_image.attributes().src"
-             attr="data.mobile_image.attributes"
-             class="pagebuilder-mobile-only z1-pagebuilder-wv-image"
-             css="data.mobile_image.css"
-             ko-style="data.mobile_image.style" />
+        <if args="data.mobile_image.attributes().stoplazyload === 'yes'">
+	        <img if="data.desktop_image.attributes().src"
+	             attr="data.desktop_image.attributes"
+	             class="pagebuilder-mobile-hidden z1-pagebuilder-wv-image"
+	             css="data.desktop_image.css"
+	             ko-style="data.desktop_image.style" />
+	        <img if="data.mobile_image.attributes().src"
+	             attr="data.mobile_image.attributes"
+	             class="pagebuilder-mobile-only z1-pagebuilder-wv-image"
+	             css="data.mobile_image.css"
+	             ko-style="data.mobile_image.style" />
+	    </if>
+	    <if args="data.mobile_image.attributes().stoplazyload === 'no'">
+	        <img if="data.desktop_image.attributes().src"
+	             attr="data.desktop_image.attributes"
+	             class="pagebuilder-mobile-hidden z1-pagebuilder-wv-image"
+	             css="data.desktop_image.css"
+	             ko-style="data.desktop_image.style"
+	             loading="lazy" />
+	        <img if="data.mobile_image.attributes().src"
+	             attr="data.mobile_image.attributes"
+	             class="pagebuilder-mobile-only z1-pagebuilder-wv-image"
+	             css="data.mobile_image.css"
+	             ko-style="data.mobile_image.style" 
+	             loading="lazy" />
+	    </if>
     </a>
 
     <ifnot args="data.link.attributes().href">
-        <img if="data.desktop_image.attributes().src"
-             attr="data.desktop_image.attributes"
-             class="pagebuilder-mobile-hidden z1-pagebuilder-wv-image"
-             css="data.desktop_image.css"
-             ko-style="data.desktop_image.style"/>
-        <img if="data.mobile_image.attributes().src"
-             attr="data.mobile_image.attributes"
-             class="pagebuilder-mobile-only z1-pagebuilder-wv-image"
-             css="data.mobile_image.css"
-             ko-style="data.mobile_image.style" />
+    	<if args="data.mobile_image.attributes().stoplazyload === 'yes'">
+	        <img if="data.desktop_image.attributes().src"
+	             attr="data.desktop_image.attributes"
+	             class="pagebuilder-mobile-hidden z1-pagebuilder-wv-image"
+	             css="data.desktop_image.css"
+	             ko-style="data.desktop_image.style" />
+	        <img if="data.mobile_image.attributes().src"
+	             attr="data.mobile_image.attributes"
+	             class="pagebuilder-mobile-only z1-pagebuilder-wv-image"
+	             css="data.mobile_image.css"
+	             ko-style="data.mobile_image.style" />
+	    </if>
+	    <if args="data.mobile_image.attributes().stoplazyload === 'no'">
+	        <img if="data.desktop_image.attributes().src"
+	             attr="data.desktop_image.attributes"
+	             class="pagebuilder-mobile-hidden z1-pagebuilder-wv-image"
+	             css="data.desktop_image.css"
+	             ko-style="data.desktop_image.style"
+	             loading="lazy" />
+	        <img if="data.mobile_image.attributes().src"
+	             attr="data.mobile_image.attributes"
+	             class="pagebuilder-mobile-only z1-pagebuilder-wv-image"
+	             css="data.mobile_image.css"
+	             ko-style="data.mobile_image.style" 
+	             loading="lazy" />
+	    </if>
     </ifnot>
 
     <figcaption if="data.caption.html()"
