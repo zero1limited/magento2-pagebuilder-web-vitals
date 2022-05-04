@@ -1,3 +1,5 @@
+# DO NOT USE THIS REPO / CODE
+
 # Magento 2 - PageBuilder Web Vitals
 
 For Magento 2.4.3
