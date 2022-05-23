@@ -20,18 +20,16 @@
             <appearance default="true"
                         name="full-width"
                         preview_template="Magento_PageBuilder/content-type/image/full-width/preview"
-                        master_template="Zero1_PageBuilderWebVitals/content-type/image/full-width/master"
+                        master_template="Magento_PageBuilder/content-type/image/full-width/master"
                         reader="Magento_PageBuilder/js/master-format/read/configurable">
                 <elements>
                     <element name="desktop_image">
                         <attribute name="wvwidth" source="width" />
                         <attribute name="wvheight" source="height"/>
-                        <attribute name="lazyload_image" source="stoplazyload" />
                     </element>
                     <element name="mobile_image">
                         <attribute name="wvwidth" source="width" />
                         <attribute name="wvheight" source="height"/>
-                        <attribute name="lazyload_image" source="stoplazyload" />
                     </element>
                     <element name="link">
                         <attribute name="link_label" source="aria-label"/>
@@ -41,3 +39,4 @@
         </appearances>
     </type>
 </config>
+
