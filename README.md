@@ -1,5 +1,3 @@
-# DO NOT USE THIS REPO / CODE
-
 # Magento 2 - PageBuilder Web Vitals
 
 For Magento 2.4.3
@@ -10,7 +8,6 @@ Magento's Page Builder is a great core module (as of 2.4.3), which makes it easy
 
 - Image dimensions
 - Link labels
-- Lazy loading
 
 Why are these important?...
 
@@ -29,10 +26,6 @@ This is recommended by Google when a tags don't contain text. When adding an ima
 Once this module is installed, you will have a new field allowing you to add a label to the link tag which will ensure the link passes the audit.
 
 Adding image dimensions and link labels will ensure those elements pass the audit, but it can also have a knock on effect that also helps improve your CLS score (Content Layout Shift)
-
-**Largest Contentful Paint Image was lazily loaded**
-
-By default, this module will add a lazyload tag to all images to ensure that all images aren't rendered on page load which in turn helps reduce the amount of "Defer offscreen images" errors. However, if the FCP (first contentful paint) image is lazilyloaded, the audit will report that the "Largest Contentful Paint Image was lazily loaded". This module includes the option to stop your FCP image from being lazily loaded therefore removing this error on the report.
 
 ## Installation
 
