@@ -35,11 +35,7 @@
                 <item name="u" xsi:type="string">u</item>
                 <item name="br" xsi:type="string">br</item>
                 <item name="b" xsi:type="string">b</item>
-
                 <item name="aria-label" xsi:type="string">aria-label</item>
-                <item name="stoplazyload" xsi:type="string">stoplazyload</item>
-                <item name="loading" xsi:type="string">loading</item>
-
             </argument>
             <argument name="allowedAttributes" xsi:type="array">
                 <item name="alt" xsi:type="string">alt</item>
@@ -96,11 +92,7 @@
                 <item name="title" xsi:type="string">title</item>
                 <item name="border" xsi:type="string">border</item>
                 <item name="id" xsi:type="string">id</item>
-
                 <item name="aria-label" xsi:type="string">aria-label</item>
-                <item name="stoplazyload" xsi:type="string">stoplazyload</item>
-                <item name="loading" xsi:type="string">loading</item>
-
             </argument>
             <argument name="attributesAllowedByTags" xsi:type="array">
                 <item name="a" xsi:type="array">
@@ -108,16 +100,10 @@
                     <item name="target" xsi:type="string">target</item>
                     <item name="rel" xsi:type="string">rel</item>
                     <item name="href" xsi:type="string">href</item>
-
                     <item name="aria-label" xsi:type="string">aria-label</item>
-                    
                 </item>
                 <item name="img" xsi:type="array">
                     <item name="src" xsi:type="string">src</item>
-                    
-                    <item name="stoplazyload" xsi:type="string">stoplazyload</item>
-                    <item name="loading" xsi:type="string">loading</item>
-                    
                 </item>
                 <item name="button" xsi:type="array">
                     <item name="type" xsi:type="string">type</item>
