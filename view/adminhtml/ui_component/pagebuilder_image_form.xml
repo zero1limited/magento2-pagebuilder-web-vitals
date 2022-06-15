@@ -10,7 +10,7 @@
         <field name="link_label" sortOrder="25" formElement="input">
             <settings>
                 <label translate="true">Link Description</label>
-                <notice translate="true">This should be descriptive to ensure Google's web vitals audits are passed; for example... "Buy" will fail; "Discover our new range of products" will pass</notice>
+                <notice translate="true">A detailed description of the link will ensure that Core Web Vitals audits are passed; for example: "Buy now" will fail; whereas "Discover our new range of products" will pass</notice>
                 <validation>
                     <rule name="validate-string" xsi:type="boolean">true</rule>
                 </validation>
@@ -19,13 +19,13 @@
     </fieldset>
     <fieldset name="webvitals" sortOrder="40">
         <settings>
-            <label translate="true">Web Vitals...</label>
+            <label translate="true">Core Web Vitals</label>
             <collapsible>true</collapsible>
             <opened>true</opened>
         </settings>
         <field name="wvwidth" sortOrder="10" formElement="input">
             <settings>
-                <label translate="true">Image Width</label>
+                <label translate="true">Desktop Image Width</label>
                 <validation>
                     <rule name="validate-string" xsi:type="boolean">true</rule>
                 </validation>
@@ -33,7 +33,23 @@
         </field>
         <field name="wvheight" sortOrder="20" formElement="input">
             <settings>
-                <label translate="true">Image Height</label>
+                <label translate="true">Desktop Image Height</label>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+        <field name="wvmwidth" sortOrder="30" formElement="input">
+            <settings>
+                <label translate="true">Mobile Image Width</label>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+        <field name="wvmheight" sortOrder="40" formElement="input">
+            <settings>
+                <label translate="true">Mobile Image Height</label>
                 <validation>
                     <rule name="validate-string" xsi:type="boolean">true</rule>
                 </validation>
