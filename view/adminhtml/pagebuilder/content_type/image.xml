@@ -28,8 +28,8 @@
                         <attribute name="wvheight" source="height"/>
                     </element>
                     <element name="mobile_image">
-                        <attribute name="wvwidth" source="width" />
-                        <attribute name="wvheight" source="height"/>
+                        <attribute name="wvmwidth" source="width" />
+                        <attribute name="wvmheight" source="height"/>
                     </element>
                     <element name="link">
                         <attribute name="link_label" source="aria-label"/>
