@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_PageBuilder:etc/content_type.xsd">
+    <type name="image"
+          label="Image"
+          component="Magento_PageBuilder/js/content-type"
+          preview_component="Magento_PageBuilder/js/content-type/image/preview"
+          form="pagebuilder_image_form"
+          menu_section="media"
+          icon="icon-pagebuilder-image"
+          sortOrder="1"
+          translate="label">
+        <children default_policy="deny"/>
+        <appearances>
+            <appearance default="true"
+                        name="full-width"
+                        preview_template="Magento_PageBuilder/content-type/image/full-width/preview"
+                        master_template="Zero1_PageBuilderWebVitalsLazy/content-type/image/full-width/master"
+                        reader="Magento_PageBuilder/js/master-format/read/configurable">
+                <elements>
+                    <element name="desktop_image">
+                        <attribute name="wvwidth" source="width" />
+                        <attribute name="wvheight" source="height"/>
+                        <attribute name="wvstoplazy" source="stoplazyloading"/>
+                    </element>
+                    <element name="mobile_image">
+                        <attribute name="wvmwidth" source="width" />
+                        <attribute name="wvmheight" source="height"/>
+                    </element>
+                    <element name="link">
+                        <attribute name="link_label" source="aria-label"/>
+                    </element>
+                </elements>
+            </appearance>
+        </appearances>
+    </type>
+</config>
+

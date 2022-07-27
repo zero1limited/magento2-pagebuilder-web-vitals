@@ -1,0 +1,33 @@
+ZERO-1 Ltd LICENSE AGREEMENT
+
+This license agreement (hereinafter agreement) is an agreement Between you (the person or company who is being licensed to use the software or documentation) and ZERO-1 Ltd (hereinafter we/us/our). The agreement applies to all products/software/scripts/services you purchase from us.
+
+1. By purchasing the Software you acknowledge that you have read this Agreement, and that you agree to the content of the Agreement and its terms, and agree to use the Software in compliance with this Agreement.
+
+2. The Agreement comes into legal force at the moment when you order our Software from our site or receive it through email or on data medium at our discretion.
+
+3. We are the copyright holder of the Software. The Software or a portion of it is a copyrightable matter and is liable to protection by the law. Any activity that infringes terms of this Agreement violates copyright law and will be prosecuted according to the current law. We reserve the right to revoke the license of any user who is holding an invalid license.
+
+4. This Agreement gives you the right to use the Software on one domain solely for your own personal or business use, subject to all other terms of this Agreement. A separate License must be purchased for each other domain the Software is deployed on. Use of software on multiple domains can result in license revocation.
+
+5. Any distribution of the Software without our consent, including non-commercial distribution is regarded as violation of this Agreement and entails liability, according to the current law. A sold License does not include ownership of any original works, part of thereof or any documentation or derivative works of the software.
+
+6. You agree that you (your employers/employees/agents) may not use any part of the code in whole or part in any other software or product or website.
+
+7. You may not give, sell, distribute, sub-license, rent, lease or lend any portion of the Software or Documentation to anyone. You may not place the Software on a server so that it is accessible via a public network such as the Internet for distribution purposes.
+
+8. You are bound to preserve the copyright information intact, this includes the text/link at bottom.
+
+9. We reserve the right to publish a selected list of users of our Software.
+
+10. We will not be liable to you for any damages (including any loss of profits/saving, or incidental or consequential) caused to you, your information and your business arising out of the use or inability to use this Software. To the maximum extent permitted by applicable law, the cumulative liability of ZERO-1 Ltd for all claims of any nature related to the licensed software or documentation or otherwise arising from this agreement, including any cause of action based on warranty, contract, tort, strict liability patent or copyright infringement or misappropriation of intellectual property, shall not exceed the total amount of all license fees that licensee has actually paid under this agreement. Neither ZERO-1 Ltd nor any of its resellers, suppliers or licensors shall be liable for any consequential, incidental, indirect, special, exemplary or punitive damages, whether in contract, in tort (including negligence) or otherwise, or for any loss of profits, loss of savings, loss of data or loss of user damages arising out of this agreement or the use (or inability to use) of the licensed software even if ZERO-1 Ltd or reseller, supplier or licensor has been aware of the possibility of such potential loss or damage. In no event will ZERO-1 Ltd be liable for any claim brought more than one (1) year after the cause of action arose or should have been discovered. Because some states do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply. Because some states/jurisdictions do not allow the exclusion or Limitation of liability for consequential or incidental damages, the above Limitations may not apply to you.
+
+11. We are not liable for prosecution arising from use of the Software against law or for any illegal use. If you fail to use the Software in accordance with the terms and conditions of this License Agreement, it constitutes a breach of the agreement, and your license to use the program is revoked. If you continue to use the Software after ZERO-1 Ltd gives you notice of termination of your license, you hereby agree to accept an injunction to enjoin you from its further use and to pay all costs (including but not limited to reasonable attorney fees) to enforce our revocation of your license and any damages suffered by us because of your misuse of the Software.
+
+12. Each party agrees that it shall not disclose any information concerning the customers, trade secrets, methods, processes or procedures or any other confidential, financial or business information of the other party, without the prior written consent of such other party. This obligation shall survive the cancellation or other termination of this Agreement or License.
+
+13. We do not collect or store any sensitive business or personal information except that which ensures the purchase of a valid software license.
+
+14. Included in the license is free access to our support team for one installation and set-up period, free bug fixing and upgrades for 1 year from the purchase date. We will provide to the customer all reasonably necessary support and help via email, phone, instant messaging
+
+15. Except as set forth above, ZERO-1 Ltd is providing the licensed software "as is," and, to the maximum extent permitted by Applicable law, ZERO-1 Ltd specifically disclaims any and all other warranties, conditions or representations (whether express, implied or statutory, or oral or Written) with respect to the licensed software or documentation including Without limitation any and all warranties of merchantability or fitness for a Particular purpose (whether or not ZERO-1 Ltd knows, has reason to know, has been Advised or is otherwise in fact aware of any such purpose) or conditions of Title or non-infringement whether alleged to arise by operation of law, by reason of custom or usage in the trade or by course of dealing. ZERO-1 Ltd also expressly disclaims any express or implied warranty or representation to any person other than licensee. This limited warranty gives you specific legal rights. 16. ZERO-1 Ltd reserves the right to change this license agreement at any time and impose its clauses at any given time. It is solely Customer's responsibility to inquire about any changes, made to the present Agreement

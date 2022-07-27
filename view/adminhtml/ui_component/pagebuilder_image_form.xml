@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd" extends="pagebuilder_base_form">
+    <fieldset name="general" sortOrder="20">
+        <field name="link_label" sortOrder="25" formElement="input">
+            <settings>
+                <label translate="true">Link Description</label>
+                <notice translate="true">A detailed description of the link will ensure that Core Web Vitals audits are passed; for example: "Buy now" will fail; whereas "Discover our new range of products" will pass</notice>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+    </fieldset>
+    <fieldset name="webvitals" sortOrder="40">
+        <settings>
+            <label translate="true">Core Web Vitals</label>
+            <collapsible>true</collapsible>
+            <opened>true</opened>
+        </settings>
+        <field name="wvwidth" sortOrder="10" formElement="input">
+            <settings>
+                <label translate="true">Desktop Image Width</label>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+        <field name="wvheight" sortOrder="20" formElement="input">
+            <settings>
+                <label translate="true">Desktop Image Height</label>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+        <field name="wvmwidth" sortOrder="30" formElement="input">
+            <settings>
+                <label translate="true">Mobile Image Width</label>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+        <field name="wvmheight" sortOrder="40" formElement="input">
+            <settings>
+                <label translate="true">Mobile Image Height</label>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+        <field name="wvstoplazy" sortOrder="50" formElement="checkbox">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="default" xsi:type="string">0</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>boolean</dataType>
+                <label translate="true">Remove Lazy Loading Tag?</label>
+                <dataScope>wvstoplazy</dataScope>
+            </settings>
+            <formElements>
+                <checkbox>
+                    <settings>
+                        <valueMap>
+                            <map name="false" xsi:type="number">0</map>
+                            <map name="true" xsi:type="number">1</map>
+                        </valueMap>
+                        <prefer>toggle</prefer>
+                    </settings>
+                </checkbox>
+            </formElements>
+        </field>
+    </fieldset>
+</form>
