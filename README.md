@@ -31,7 +31,7 @@ Adding image dimensions and link labels will ensure those elements pass the audi
 ## Installation...
 
 ```
-composer require zero1limited/module-pagebuilder-web-vitals-with-lazyload-tags
+composer require zero1/module-pagebuilder-web-vitals-with-lazyload-tags
 ```
 
 © Zero-1 Ltd | [www.zero1.co.uk](https://www.zero1.co.uk/)
