@@ -2,7 +2,7 @@
     "name": "zero1/module-pagebuilder-web-vitals-vitals-with-lazyload-tags",
     "description": "Provides functionality to include image dimensions, link labels and lazyload options to image to help improve Google's Web Vitals audits scores",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
