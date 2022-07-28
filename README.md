@@ -28,7 +28,7 @@ Once this module is installed, you will have a new field allowing you to add a l
 
 Adding image dimensions and link labels will ensure those elements pass the audit, but it can also have a knock on effect that also helps improve your CLS score (Content Layout Shift)
 
-## Installation
+## Installation...
 
 ```
 composer require zero1limited/module-pagebuilder-web-vitals-with-lazyload-tags
