@@ -31,6 +31,7 @@
                     <element name="mobile_image">
                         <attribute name="wvmwidth" source="width" />
                         <attribute name="wvmheight" source="height"/>
+                        <attribute name="wvstoplazy" source="stoplazyloading"/>
                     </element>
                     <element name="link">
                         <attribute name="link_label" source="aria-label"/>
