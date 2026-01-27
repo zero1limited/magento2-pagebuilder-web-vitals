@@ -94,6 +94,7 @@
                 <item name="border" xsi:type="string">border</item>
                 <item name="id" xsi:type="string">id</item>
                 <item name="aria-label" xsi:type="string">aria-label</item>
+                <item name="fetchpriority" xsi:type="string">fetchpriority</item>
             </argument>
             <argument name="attributesAllowedByTags" xsi:type="array">
                 <item name="a" xsi:type="array">
